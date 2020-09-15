@@ -18,7 +18,7 @@ with open(fileLocation, "rb") as file:
     }
     res = requests.post(url, payload)
 
-if res.status_code == 200:
+if res.ok == True:
     print("Server Response: " + str(res.status_code))
     print("Image Successfully Uploaded")
 else:
