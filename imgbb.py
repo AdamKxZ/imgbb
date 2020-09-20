@@ -1,4 +1,5 @@
 # Upload to imgBB
+# Written by AdamKxZ
 
 import base64
 import requests
