@@ -5,7 +5,7 @@ import base64
 import requests
 
 # Replace with your API key
-apiKey = 'xxxxx'
+apiKey = 'xxxxxx'
 
 print("imgBB API Uploader")
 print("API Key: " + apiKey)
